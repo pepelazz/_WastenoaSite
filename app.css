@@ -244,43 +244,56 @@ p {
   .vpyk-layers img {
     width: 100%; }
 
-/* line 159, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+@media (max-width: 768px) {
+  /* line 160, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  .our-products div[class^='col'] {
+    width: 100%; } }
+
+/* line 162, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+.our-products img {
+  width: 100%; }
+
+/* line 164, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+.our-products .pdf-icon {
+  width: 4rem; }
+
+/* line 170, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .our-clients img {
   width: 100%; }
 
-/* line 162, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 173, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .contact {
   padding-bottom: 10rem; }
-  /* line 164, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 175, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .contact .contact-details {
     font-size: 1.5rem; }
-    /* line 166, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+    /* line 177, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
     .contact .contact-details .phone {
       width: 29.6875%;
       float: left;
       margin-right: 1.5625%; }
       @media (max-width: 768px) {
-        /* line 166, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+        /* line 177, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
         .contact .contact-details .phone {
           width: 100%;
           margin-bottom: 1rem; } }
-    /* line 171, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+    /* line 182, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
     .contact .contact-details .email {
       width: 29.6875%;
       float: left;
       margin-right: 1.5625%; }
       @media (max-width: 768px) {
-        /* line 171, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+        /* line 182, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
         .contact .contact-details .email {
           width: 100%;
           margin-bottom: 1rem; } }
-    /* line 176, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+    /* line 187, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
     .contact .contact-details .www {
       width: 29.6875%;
       float: left;
       margin-right: 1.5625%; }
       @media (max-width: 768px) {
-        /* line 176, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+        /* line 187, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
         .contact .contact-details .www {
           width: 100%; } }
 
