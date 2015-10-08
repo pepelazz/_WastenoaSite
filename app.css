@@ -56,33 +56,54 @@ p {
   line-height: 1.7; }
 
 /* line 22, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+.lang-switch {
+  position: absolute;
+  top: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  /* line 28, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  .lang-switch li {
+    float: left;
+    margin-left: 1rem; }
+  /* line 31, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  .lang-switch a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7; }
+    /* line 36, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+    .lang-switch a:hover {
+      opacity: 1; }
+
+/* line 40, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 #header {
   width: 100%;
   margin-bottom: -5px; }
-  /* line 25, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 43, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   #header img {
     width: 100%; }
-  /* line 27, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 45, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   #header h1 {
     text-align: center;
     font-size: 3rem; }
 
-/* line 31, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 49, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .block {
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;
   margin-bottom: -5px; }
-  /* line 36, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 54, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .block .wrapper {
     overflow: hidden;
     padding: 2rem 8rem; }
     @media (max-width: 992px) {
-      /* line 36, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+      /* line 54, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
       .block .wrapper {
         padding: 2rem; } }
 
-/* line 46, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 64, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .btn {
   line-height: 1;
   background: white;
@@ -93,66 +114,66 @@ p {
   margin-top: 2rem;
   text-decoration: none;
   color: black; }
-  /* line 56, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 74, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .btn:hover {
     background: #CCCCCC; }
-  /* line 59, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 77, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .btn:disabled:hover {
     background: white; }
 
-/* line 62, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 80, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .col-3 {
   width: 23.72881%;
   float: left;
   margin-right: 1.69492%; }
 
-/* line 64, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 82, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .col-4 {
   width: 32.20339%;
   float: left;
   margin-right: 1.69492%; }
 
-/* line 66, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 84, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .col-5 {
   width: 40.67797%;
   float: left;
   margin-right: 1.69492%; }
 
-/* line 68, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 86, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .col-6 {
   width: 49.15254%;
   float: left;
   margin-right: 1.69492%; }
 
-/* line 70, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 88, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .offset-2 {
   margin-left: 16.94915%; }
 
-/* line 72, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 90, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .offset-3 {
   margin-left: 25.42373%; }
 
-/* line 74, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 92, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .offset-4 {
   margin-left: 33.89831%; }
 
-/* line 76, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 94, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .offset-5 {
   margin-left: 42.37288%; }
 
-/* line 78, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 96, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .offset-6 {
   margin-left: 50.84746%; }
 
-/* line 80, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 98, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .offset-7 {
   margin-left: 59.32203%; }
 
-/* line 82, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 100, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .offset-8 {
   margin-left: 67.79661%; }
 
-/* line 86, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 104, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .logo {
   transition: 0.5s ease-in-out;
   position: fixed;
@@ -160,140 +181,140 @@ p {
   right: 5px;
   text-align: center;
   opacity: 0.3; }
-  /* line 93, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 111, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .logo img {
     width: 3rem; }
-  /* line 95, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 113, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .logo .phone {
     opacity: 0; }
-  /* line 97, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 115, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .logo:hover {
     opacity: 1;
     top: 15px;
     right: 25px; }
-    /* line 101, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+    /* line 119, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
     .logo:hover .phone {
       opacity: 1; }
 
 @media (max-width: 992px) {
-  /* line 108, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 126, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .four-block-smoke .wrapper div[class^='col'] {
     width: 100%; } }
 
 @media (max-width: 768px) {
-  /* line 111, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 129, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .four-block-smoke .wrapper img {
     width: 100%; } }
 
-/* line 113, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 131, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .four-block-smoke .wrapper .col-4 {
   margin-bottom: -2rem; }
 
-/* line 116, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 134, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .two-block-open {
   background: url("/static/img/two-blocks.jpg") no-repeat center center fixed;
   background-size: cover;
   min-height: 35rem; }
   @media (max-width: 992px) {
-    /* line 116, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+    /* line 134, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
     .two-block-open {
       background: #ffffff; }
-      /* line 125, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+      /* line 143, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
       .two-block-open div[class^='col'] {
         width: 100%;
         margin-left: 0; } }
-  /* line 128, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 146, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .two-block-open img {
     width: 100%; }
     @media (min-width: 992px) {
-      /* line 128, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+      /* line 146, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
       .two-block-open img {
         display: none; } }
 
-/* line 135, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 153, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .filter-compare .wrapper {
   padding: 10rem 8rem; }
   @media (max-width: 992px) {
-    /* line 135, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+    /* line 153, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
     .filter-compare .wrapper {
       padding: 2rem; } }
   @media (max-width: 768px) {
-    /* line 140, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+    /* line 158, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
     .filter-compare .wrapper div[class^='col'] {
       width: 100%;
       margin-left: 0; } }
-  /* line 143, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 161, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .filter-compare .wrapper > div {
     text-align: center; }
     @media (max-width: 768px) {
-      /* line 146, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+      /* line 164, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
       .filter-compare .wrapper > div p {
         text-align: justify; } }
-  /* line 148, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 166, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .filter-compare .wrapper .col-6 {
     margin-right: 0; }
 
-/* line 150, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 168, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .filter-compare img {
   width: 70%; }
 
-/* line 153, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 171, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .vpyk-layers {
   margin-top: 5rem; }
-  /* line 155, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 173, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .vpyk-layers img {
     width: 100%; }
 
 @media (max-width: 768px) {
-  /* line 160, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 178, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .our-products div[class^='col'] {
     width: 100%; } }
 
-/* line 162, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 180, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .our-products img {
   width: 100%; }
 
-/* line 164, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 182, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .our-products .pdf-icon {
   width: 4rem; }
 
-/* line 170, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 188, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .our-clients img {
   width: 100%; }
 
-/* line 173, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+/* line 191, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
 .contact {
   padding-bottom: 10rem; }
-  /* line 175, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+  /* line 193, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
   .contact .contact-details {
     font-size: 1.5rem; }
-    /* line 177, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+    /* line 195, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
     .contact .contact-details .phone {
       width: 29.6875%;
       float: left;
       margin-right: 1.5625%; }
       @media (max-width: 768px) {
-        /* line 177, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+        /* line 195, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
         .contact .contact-details .phone {
           width: 100%;
           margin-bottom: 1rem; } }
-    /* line 182, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+    /* line 200, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
     .contact .contact-details .email {
       width: 29.6875%;
       float: left;
       margin-right: 1.5625%; }
       @media (max-width: 768px) {
-        /* line 182, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+        /* line 200, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
         .contact .contact-details .email {
           width: 100%;
           margin-bottom: 1rem; } }
-    /* line 187, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+    /* line 205, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
     .contact .contact-details .www {
       width: 29.6875%;
       float: left;
       margin-right: 1.5625%; }
       @media (max-width: 768px) {
-        /* line 187, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
+        /* line 205, /Users/Trikster/static_sites/Wastenoa/_Wastenoa/src/sass/partials/_style.sass */
         .contact .contact-details .www {
           width: 100%; } }
 
